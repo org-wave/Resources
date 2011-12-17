@@ -1,0 +1,36 @@
+Resources
+----------
+
+
+O que e isso?
+-------------
+Este projeto tem como objetivo oferecer uma maneira typesafe de nos referenciarmos aos recursos de um arquivo de propriedades.
+
+
+Documentacao
+------------
+O arquivo de propriedades deve ser representado por uma enum. Essa enum deve ser mapeada por meio da anotacao @Properties,
+que define onde o arquivo esta localizado. Cada constante da enum representa a chave de um determinado recurso do arquivo.
+Para definir o template padrao associado a chave, as constantes devem ser mapeadas por meio da anotacao @Resource. O mapeamento
+da enum permite a geracao de uma classe (NomeDaEnum_) em tempo de compilacao. Os recursos de um arquivo de propriedades serao
+referenciados por meio dessa classe.
+
+Para mais detalhes, consulte o projeto de exemplo: ResourcesExample
+
+
+Licenca
+-------
+Ver o arquivo LICENSE.
+
+
+Autores
+-------
+Benedito Barbosa Ribeiro Neto
+Christian Linhares Peixoto
+Mauricio da Silva Marinho
+
+
+Contato
+-------
+org.wave@gmail.com
+
